@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import ssl, time, json
 
-BROKER = '98.84.188.227'
+BROKER = 'YOUR_BROKER_IP'  # e.g. EC2 public IP
 PORT = 8883
 TOPIC = 'iot/lab/topic'
 CA    = '/home/mypi/mqtt-certs/ca.crt'
